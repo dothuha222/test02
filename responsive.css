@@ -1,0 +1,41 @@
+/* PC */
+@media(min-width:1200px){
+    .container-lg.portfolio_width{
+        max-width: 825px;
+    }
+    .artist i{
+        display: none;
+    }
+}
+/* Tablet */
+@media (max-width: 1200px) {
+    .container-lg.portfolio_width{
+        max-width: 570px;
+    }
+    .container.footer_all{
+        text-align: center;
+    }
+    .container.footer_all .col_footer{
+        padding-bottom: 18px;
+    }
+    .artist i{
+        position: relative;
+        left: 224px;
+        top: -3px;
+    }
+    
+}
+/* Mobile  */
+ @media(max-width: 768px){
+    .container-fluid.new_container{
+        padding: 16px;
+    }
+    .contact_form input {
+        padding: 20px 10px;
+    }
+    .artist i{
+        position: relative;
+        right:-68px;
+        top: -2px;
+    }
+ }
